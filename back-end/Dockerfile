@@ -6,6 +6,6 @@ EXPOSE 3000
 
 COPY . .
 
-RUN yarn install
+RUN yarn
 
 CMD ["yarn", "dev"]
