@@ -10,7 +10,6 @@ services:
     container_name: express-api
     volumes: 
       - ./back-end:/code
-    working_dir: /code
   
   db:
     image: mongo
