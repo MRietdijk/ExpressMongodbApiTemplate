@@ -6,6 +6,6 @@ EXPOSE 3000
 
 COPY . .
 
-RUN yarn install
+RUN yarn install --production=false --pure-lockfile
 
 CMD ["yarn", "dev"]
